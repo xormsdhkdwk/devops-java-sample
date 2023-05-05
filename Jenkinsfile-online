@@ -48,7 +48,7 @@ pipeline {
       steps {
         container('maven') {
           sh 'mvn -Dmaven.test.skip=true clean package'
-          }
+         
 
         }
 
